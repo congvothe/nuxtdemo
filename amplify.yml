@@ -10,6 +10,6 @@ frontend:
       commands:
         - yarn run build
   artifacts:
-    baseDirectory: .gitignore
+    baseDirectory: build
     files:
       - '**/*'
