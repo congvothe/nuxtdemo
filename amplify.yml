@@ -8,7 +8,7 @@ frontend:
         - npx --yes nypm i
     build:
       commands:
-        - yarn run build
+        - npm run dev
   artifacts:
     baseDirectory: package.json
     files:
